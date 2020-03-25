@@ -1,2 +1,4 @@
 ##ignore this file##
 /demos/mongooseDemo/node_modules
+/demos/express-mongoose/node_modules
+/demos/element-admin/node_modules
