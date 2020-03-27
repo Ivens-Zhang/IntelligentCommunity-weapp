@@ -1,0 +1,57 @@
+<!--pages/index/index.wxml-->
+  <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{5000}}" duration="{{500}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image class="swiper-image" mode="center" src="{{item}}" />
+      </swiper-item>
+    </block> 
+  </swiper> 
+
+<view class="weather">
+  <view class="todayWeather">
+    <view class="up">
+      <text class="date">今天</text>
+      <text class="temperature">{{weather[0].tmp_min}}℃-{{weather[0].tmp_max}}℃</text>
+    </view>
+    <view class="down">
+      <text class="cond">{{weather[0].cond_txt_d}}</text>
+      <image class="weatherImg" src="/assets/cond-icon-heweather/{{weather[0].cond_code_d}}.png" />
+    </view>
+  </view>
+  <view class="tomorrowWeather">
+    <view class="up">
+      <text class="date">明天</text>
+      <text class="temperature">{{weather[1].tmp_min}}℃-{{weather[1].tmp_max}}℃</text>
+    </view>
+    <view class="down">
+      <text class="cond">{{weather[1].cond_txt_d}}</text>
+      <image class="weatherImg" src="/assets/cond-icon-heweather/{{weather[1].cond_code_d}}.png" />
+    </view>
+  </view>
+</view>
+
+<view class="funs">
+<view class="lyb">
+<i class="icon iconfont icon-huabanfuben"></i>
+<text class="des">留言板</text>
+</view>
+<view class="lyb">
+<i class="icon iconfont icon--liuyanban"></i>
+<text class="des">物业月报</text>
+</view>
+<view class="lyb">
+<i class="icon iconfont icon-huodong"></i>
+<text class="des">社区活动</text>
+</view>
+<view class="lyb">
+<i class="icon iconfont icon-peizhitubiaosvg-"></i>
+<text class="des">电话簿</text>
+</view>
+</view>
+
+<view class="article">
+  <view wx:for="{{article}}" class="articleItem">
+    <text>{{item.title}}</text>
+    <image mode="center" src="{{item.posterURL}}" />
+  </view>
+</view>

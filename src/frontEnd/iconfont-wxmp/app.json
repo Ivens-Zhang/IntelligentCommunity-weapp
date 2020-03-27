@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/tool/tool"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2C2C2C",
+    "navigationBarTitleText": "IC智慧社区",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#328EEB",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/icons/index.png",
+        "selectedIconPath": "assets/icons/indexSelected.png"
+      },
+      {
+        "pagePath": "pages/tool/tool",
+        "text": "工具",
+        "iconPath": "assets/icons/tool.png",
+        "selectedIconPath": "assets/icons/toolSelected.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "assets/icons/my.png",
+        "selectedIconPath": "assets/icons/mySelected.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

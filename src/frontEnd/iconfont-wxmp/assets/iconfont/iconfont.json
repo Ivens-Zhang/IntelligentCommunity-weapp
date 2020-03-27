@@ -1,0 +1,37 @@
+{
+  "id": "1714469",
+  "name": "IC",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "12103675",
+      "name": "报告",
+      "font_class": "huabanfuben",
+      "unicode": "eb84",
+      "unicode_decimal": 60292
+    },
+    {
+      "icon_id": "1287693",
+      "name": "活动",
+      "font_class": "huodong",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "11755498",
+      "name": "黄页",
+      "font_class": "peizhitubiaosvg-",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "13266262",
+      "name": "1-留言板",
+      "font_class": "-liuyanban",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    }
+  ]
+}

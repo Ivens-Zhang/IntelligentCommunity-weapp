@@ -1,0 +1,84 @@
+swiper {
+  width: 100%;
+}
+
+swiper-item {
+  width: 100%;
+  height: 400rpx;
+}
+
+.swiper-image {
+  width: 100%;
+}
+
+/* 天气样式 */
+
+.weather {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20rpx;
+}
+
+.weather image{
+  width: 100rpx;
+  height: 100rpx;
+}
+
+/* 天气样式 */
+
+.funs {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  padding: 20rpx 0 20rpx 0;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1rpx solid gray;
+  border-bottom: 4  rpx solid gray;
+}
+
+.lyb {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.iconfont {
+  font-size: 80rpx;
+}
+
+/* 文章样式 */
+
+.article {
+  width: 90%;
+  margin: 20rpx auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.articleItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5rpx 0;
+  padding-bottom: 5rpx;
+  border-bottom: 1rpx solid gray;
+}
+
+.articleItem image {
+  display: inline-block;
+  width: 130rpx;
+  height: 130rpx;
+  margin: 0 0 5rpx 5rpx;
+}
+
+.articleItem text {
+  width: 500rpx;
+  font-size: 35rpx;
+}
+
+
+/* 文章样式 */
