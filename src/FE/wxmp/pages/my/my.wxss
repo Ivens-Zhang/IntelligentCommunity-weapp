@@ -1,1 +1,34 @@
 /* pages/my/my.wxss */
+.userAvatar {
+  border-radius: 50%;
+  width: 200rpx;
+  height: 200rpx;
+  position: relative;
+  top: 100rpx;
+  left: 50rpx;
+}
+
+.userNickName {
+  font-size: large;
+  position: relative;
+  left: 250rpx;
+}
+
+.welcome {
+  font-size: xx-large;
+  position: relative;
+  top:400rpx;
+  left: 70rpx;
+}
+
+.loginBtn {
+  position: relative;
+  top: 500rpx;
+}
+
+.createFaceInfo {
+  position: absolute;
+  top: 400rpx;
+  left: 200rpx;
+  font-size: x-large;
+}

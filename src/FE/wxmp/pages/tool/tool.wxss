@@ -1,1 +1,26 @@
 /* pages/tool/tool.wxss */
+.funs {
+  width: 90%;
+  height: 80%;
+  margin: 0 auto;
+  margin-top: 500rpx;
+  padding: 20rpx 0 20rpx 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1rpx solid gray;
+  border-bottom: 4rpx solid gray;
+  background: rgba(255, 255, 255, .3);
+  box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, .3);
+}
+
+.lyb {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.iconfont {
+  font-size: 80rpx;
+}

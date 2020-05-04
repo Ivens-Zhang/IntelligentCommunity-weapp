@@ -1,2 +1,23 @@
 <!--pages/my/my.wxml-->
-<text>pages/my/my.wxml</text>
+<view wx:if="{{!isLogined}}" class="loginBtn">
+  <!-- 需要使用 button 来授权登录 -->
+  <button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">请授权您的微信</button>
+</view>
+
+<view wx:if="{{isLogined}}">
+  <!-- 如果只是展示用户头像昵称，可以使用 <open-data /> 组件 -->
+  <view>
+    <image src="{{userInfo.avatarUrl}}" class="userAvatar"/>
+  </view>
+  <view>
+    <text class="userNickName">{{userInfo.nickName}}先生/女士, 您好</text>
+  </view>
+  <view >
+    <text class="welcome">欢迎来到 IC 智慧社区</text>
+  </view>
+  <view bindtap="createFaceInfo" class="createFaceInfo">
+  <ul>
+    <li>·绑定脸部图片</li>
+  </ul>
+  </view>
+</view>

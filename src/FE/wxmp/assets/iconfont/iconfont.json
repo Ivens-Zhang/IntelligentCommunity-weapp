@@ -6,6 +6,55 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "2678624",
+      "name": "人脸识别",
+      "font_class": "renlianshibie",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "13750557",
+      "name": "首页",
+      "font_class": "shouye-copy",
+      "unicode": "eb88",
+      "unicode_decimal": 60296
+    },
+    {
+      "icon_id": "13750560",
+      "name": "工具",
+      "font_class": "gongju-copy",
+      "unicode": "eb89",
+      "unicode_decimal": 60297
+    },
+    {
+      "icon_id": "1181181",
+      "name": "工具",
+      "font_class": "gongju",
+      "unicode": "e6ad",
+      "unicode_decimal": 59053
+    },
+    {
+      "icon_id": "1244098",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "5849190",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "13750548",
+      "name": "我的",
+      "font_class": "wode-copy",
+      "unicode": "eb87",
+      "unicode_decimal": 60295
+    },
+    {
       "icon_id": "12103675",
       "name": "报告",
       "font_class": "huabanfuben",
@@ -27,11 +76,11 @@
       "unicode_decimal": 58976
     },
     {
-      "icon_id": "13266262",
+      "icon_id": "13750289",
       "name": "1-留言板",
-      "font_class": "-liuyanban",
-      "unicode": "e60b",
-      "unicode_decimal": 58891
+      "font_class": "-liuyanban-copy",
+      "unicode": "eb86",
+      "unicode_decimal": 60294
     }
   ]
 }

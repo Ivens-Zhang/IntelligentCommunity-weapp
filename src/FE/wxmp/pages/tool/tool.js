@@ -9,6 +9,50 @@ Page({
   },
 
   /**
+   * 
+   * @param {*} options 
+   */
+  getFaceInfo() {
+    wx.chooseImage({
+      success: res => {
+        wx.getFileSystemManager().readFile({
+          filePath: res.tempFilePaths[0], //选择图片返回的相对路径
+          encoding: 'base64', //编码格式
+          success: res => { //成功的回调
+            let faceBase64 = res.data
+            wx.request({
+              url: 'http://192.168.3.41:3000/matchFace',
+              method: 'POST',
+              data: {
+                x: faceBase64
+              },
+              success(res) {
+                let userInfo = res.data.result.user_list[0]
+                console.log(userInfo);
+                if (userInfo.score >= 88) {
+                  wx.showToast({
+                    title: '人脸验证成功',
+                    icon: 'success',
+                    duration: 5000
+                  })
+                } else {
+                  wx.showToast({
+                    title: '人脸验证失败',
+                    icon: 'loading',
+                    duration: 2000
+                  })
+                }
+              }
+            })
+          }
+        })
+      }
+      // success: function(res) {
+      //   console.log(wx.getFileSystemManager().readFileSync(res.tempFilePaths[0], "base64"))
+      // },
+    })
+  },
+  /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {

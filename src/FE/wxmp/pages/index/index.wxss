@@ -16,38 +16,39 @@ swiper-item {
 .weather {
   width: 90%;
   display: flex;
+  margin: 0 auto;
   justify-content: space-around;
-  margin-top: 20rpx;
+  margin-top: 40rpx;
+  border: 1px solid gray;
+  background: rgba(255, 255, 255, .3);
+  box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, .3);
+}
+
+.weather .todayWeather {
+  border-right: 1px solid gray;
 }
 
 .weather image{
-  width: 100rpx;
-  height: 100rpx;
+  width: 150rpx;
+  height: 150rpx;
+  padding-left: 60rpx;
+  padding-top: 40rpx;
 }
 
+.weather .temperature {
+  padding-left: 50rpx;
+}
+
+.weather .cond {
+  display: inline-block;
+  position: relative;
+  top: -50rpx;
+  left: 20rpx;
+  font-size: large;
+}
 /* 天气样式 */
 
-.funs {
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 20rpx;
-  padding: 20rpx 0 20rpx 0;
-  display: flex;
-  justify-content: space-around;
-  border-top: 1rpx solid gray;
-  border-bottom: 4  rpx solid gray;
-}
 
-.lyb {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: center;
-}
-
-.iconfont {
-  font-size: 80rpx;
-}
 
 /* 文章样式 */
 

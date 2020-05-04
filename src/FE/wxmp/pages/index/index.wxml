@@ -15,7 +15,7 @@
     </view>
     <view class="down">
       <text class="cond">{{weather[0].cond_txt_d}}</text>
-      <image class="weatherImg" src="/assets/cond-icon-heweather/{{weather[0].cond_code_d}}.png" />
+      <image class="weatherImg" src="https://icimg.oss-cn-shanghai.aliyuncs.com/weather/{{weather[0].cond_code_d}}.png" />
     </view>
   </view>
   <view class="tomorrowWeather">
@@ -25,29 +25,12 @@
     </view>
     <view class="down">
       <text class="cond">{{weather[1].cond_txt_d}}</text>
-      <image class="weatherImg" src="/assets/cond-icon-heweather/{{weather[1].cond_code_d}}.png" />
+      <image class="weatherImg" src="https://icimg.oss-cn-shanghai.aliyuncs.com/weather/{{weather[1].cond_code_d}}.png" />
     </view>
   </view>
 </view>
 
-<view class="funs">
-<view class="lyb">
-<i class="icon iconfont icon-huabanfuben"></i>
-<text class="des">留言板</text>
-</view>
-<view class="lyb">
-<i class="icon iconfont icon--liuyanban"></i>
-<text class="des">物业月报</text>
-</view>
-<view class="lyb">
-<i class="icon iconfont icon-huodong"></i>
-<text class="des">社区活动</text>
-</view>
-<view class="lyb">
-<i class="icon iconfont icon-peizhitubiaosvg-"></i>
-<text class="des">电话簿</text>
-</view>
-</view>
+
 
 <view class="article">
   <view wx:for="{{article}}" class="articleItem">
