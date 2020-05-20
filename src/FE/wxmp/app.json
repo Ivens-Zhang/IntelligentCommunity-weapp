@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/my/my",
-    "pages/tool/tool"
+    "pages/tool/tool",
+    "pages/article/article"
   ],
   "window": {
     "backgroundTextStyle": "light",

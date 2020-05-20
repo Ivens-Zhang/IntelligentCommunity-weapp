@@ -12,9 +12,9 @@
   <view>
     <text class="userNickName">{{userInfo.nickName}}先生/女士, 您好</text>
   </view>
-  <view >
+  <!-- <view >
     <text class="welcome">欢迎来到 IC 智慧社区</text>
-  </view>
+  </view> -->
   <view bindtap="createFaceInfo" class="createFaceInfo">
   <ul>
     <li>·绑定脸部图片</li>

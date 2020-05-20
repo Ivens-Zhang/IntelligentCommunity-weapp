@@ -18,7 +18,7 @@ Page({
           success: res => { //成功的回调
             let faceBase64 = res.data
             wx.request({
-              url: 'http://192.168.3.41:3000/createFaceInfo',
+              url: 'http://172.16.11.51:3000/createFaceInfo',
               method: 'POST',
               data: {
                 x: faceBase64
@@ -40,7 +40,7 @@ Page({
     })
     console.log(this.data.userInfo);
     wx.request({
-      url: 'http://192.168.3.41:3000/createUser',
+      url: 'http://172.16.11.51:3000/createUser',
       method: 'POST',
       data: {
         x: e.detail.userInfo

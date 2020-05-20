@@ -1,7 +1,7 @@
 /*
  * @Author       : Ivens
  * @Date         : 2020-03-26 11:02:43
- * @LastEditTime : 2020-05-04 12:10:51
+ * @LastEditTime : 2020-05-20 11:42:47
  * @LastEditors  : Ivens
  * @Description  : 
  * @FilePath     : \IntelligentCommunity-weapp\src\FE\wxmp\pages\index\index.js
@@ -70,7 +70,7 @@ Page({
   getArticles: function () {
     var _this = this
     wx.request({
-      url: 'http://192.168.3.41:3000/articleList',
+      url: 'http://172.16.11.51:3000/articleList',
       success(res) {
         console.log(res);
         _this.setData({
@@ -78,6 +78,7 @@ Page({
         })
       }
     })
+    console.log(this.data.article);
   },
 
   

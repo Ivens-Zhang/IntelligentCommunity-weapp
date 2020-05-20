@@ -35,6 +35,6 @@
 <view class="article">
   <view wx:for="{{article}}" class="articleItem">
     <text>{{item.title}}</text>
-    <image mode="center" src="{{item.posterURL}}" />
+    <image mode="center" src="{{item.poster}}" />
   </view>
 </view>

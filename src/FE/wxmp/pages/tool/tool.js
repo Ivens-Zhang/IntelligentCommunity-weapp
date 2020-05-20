@@ -21,7 +21,7 @@ Page({
           success: res => { //成功的回调
             let faceBase64 = res.data
             wx.request({
-              url: 'http://192.168.3.41:3000/matchFace',
+              url: 'http://172.16.11.51:3000/matchFace',
               method: 'POST',
               data: {
                 x: faceBase64
