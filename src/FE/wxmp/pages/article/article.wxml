@@ -1,2 +1,9 @@
 <!--pages/article/article.wxml-->
-<text>pages/article/article.wxml</text>
+<view class="wrapper">
+  <view class="title">{{article.title}}</view>
+  <view class="poster">
+    <image mode="aspectFit" src="{{article.poster}}" />
+  </view>
+  <view class="content">{{article.content}}</view>
+  <view class="date">{{article.data}}</view>
+</view>

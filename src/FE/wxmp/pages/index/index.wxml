@@ -2,7 +2,7 @@
   <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{5000}}" duration="{{500}}">
     <block wx:for="{{imgUrls}}">
       <swiper-item>
-        <image class="swiper-image" mode="center" src="{{item}}" />
+        <image class="swiper-image" mode="widthFix" src="{{item}}" />
       </swiper-item>
     </block> 
   </swiper> 
@@ -33,8 +33,8 @@
 
 
 <view class="article">
-  <view wx:for="{{article}}" class="articleItem">
-    <text>{{item.title}}</text>
+  <view wx:for="{{article}}" class="articleItem" bindtap="jump" data-id="{{item._id}}">
+    <text >{{item.title}}</text>
     <image mode="center" src="{{item.poster}}" />
   </view>
 </view>

@@ -1,1 +1,29 @@
 /* pages/article/article.wxss */
+/* wrapper */
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  display: inline-block;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.content {
+  font-size: 40rpx;
+}
+
+.date {
+  width: 90%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
+  margin-top: 50rpx;
+}

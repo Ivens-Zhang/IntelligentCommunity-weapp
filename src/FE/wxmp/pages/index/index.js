@@ -1,7 +1,7 @@
 /*
  * @Author       : Ivens
  * @Date         : 2020-03-26 11:02:43
- * @LastEditTime : 2020-05-20 11:42:47
+ * @LastEditTime : 2020-05-20 16:18:03
  * @LastEditors  : Ivens
  * @Description  : 
  * @FilePath     : \IntelligentCommunity-weapp\src\FE\wxmp\pages\index\index.js
@@ -14,7 +14,7 @@ Page({
    */
   data: {
     testStr: 'test',
-    imgUrls: ['https://icimg.oss-cn-shanghai.aliyuncs.com/background/91978.jpg', 'https://raw.githubusercontent.com/Ivens-Zhang/PictureBed-2019.12.9/master/img/20200304215130.png', 'https://raw.githubusercontent.com/Ivens-Zhang/PictureBed-2019.12.9/master/img/20200218225617.png'],
+    imgUrls: ['https://icimg.oss-cn-shanghai.aliyuncs.com/poster/d.jpg','https://icimg.oss-cn-shanghai.aliyuncs.com/poster/b.jpg','https://icimg.oss-cn-shanghai.aliyuncs.com/poster/a.jpg','https://icimg.oss-cn-shanghai.aliyuncs.com/poster/c.jpg'],
     weather: {},
     article: []
     // article: [
@@ -65,6 +65,24 @@ Page({
   },
 
   /**
+   * 点击文章标题跳转至详情
+   */
+  jump: function (e) {  
+    console.log(e.currentTarget.dataset.id);
+    wx.navigateTo({
+      url: `../article/article?id=${e.currentTarget.dataset.id}`,
+      success: function(res) {
+      },
+      fail: function(res) {
+    
+      },
+      complete: function(res) {
+    
+      },
+    })
+  },
+
+  /**
    * 获取文章列表
    */
   getArticles: function () {
@@ -78,7 +96,6 @@ Page({
         })
       }
     })
-    console.log(this.data.article);
   },
 
   
