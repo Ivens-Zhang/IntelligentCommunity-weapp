@@ -1,0 +1,30 @@
+/* pages/yellowPage/yellowPage.wxss */
+
+.yellowPage {
+  height: 80%;
+  width: 85%;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50rpx;
+  margin-top: 100rpx;
+  border: 1px solid gray;
+  background: rgba(255, 255, 255, .3);
+  box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, .3);
+}
+
+.pageTitle {
+  font-size: xx-large;
+  margin-top: -30rpx;
+  margin-bottom: 40rpx;
+}
+
+.yellowPageItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30rpx;
+}

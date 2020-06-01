@@ -52,6 +52,24 @@ Page({
       // },
     })
   },
+
+  /**
+   * 点击文章标题跳转至详情
+   */
+  jump: function (e) {  
+    console.log(e.currentTarget.dataset.id);
+    wx.navigateTo({
+      url: `../yellowPage/yellowPage`,
+      success: function(res) {
+      },
+      fail: function(res) {
+    
+      },
+      complete: function(res) {
+    
+      },
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

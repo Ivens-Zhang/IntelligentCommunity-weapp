@@ -1,18 +1,18 @@
 <view class="funs">
-<view class="lyb">
+<!-- <view class="lyb">
 <i class="icon iconfont icon-huabanfuben"></i>
 <text class="des">留言板</text>
-</view>
-<view class="lyb">
+</view> -->
+<!-- <view class="lyb">
 <i class="icon iconfont icon--liuyanban-copy"></i>
 <text class="des">物业月报</text>
-</view>
+</view> -->
 <view class="lyb" bindtap="getFaceInfo">
 <i class="icon iconfont icon-renlianshibie"></i>
 <text class="des">人脸识别</text>
 </view>
-<view class="lyb">
+<view class="lyb" bindtap="jump">
 <i class="icon iconfont icon-peizhitubiaosvg-"></i>
-<text class="des">电话簿</text>
+<text class="des" >电话簿</text>
 </view>
 </view>

@@ -67,6 +67,13 @@
 					"id": -1,
 					"name": "pages/tool/tool",
 					"pathName": "pages/tool/tool",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/yellowPage/yellowPage",
+					"pathName": "pages/yellowPage/yellowPage",
 					"scene": null
 				}
 			]

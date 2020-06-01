@@ -1,0 +1,41 @@
+<!--pages/yellowPage/yellowPage.wxml-->
+<view class="yellowPage">
+  <view class="pageTitle"><span>社区黄页</span></view>
+  <view class="yellowPageItem">
+    <view class="title">社区居委会：</view>
+    <view class="phoneNumber">155-9908-7710</view>
+  </view>
+  <view class="yellowPageItem">
+    <view class="title">社区物业：</view>
+    <view class="phoneNumber">137-7718-6710</view>
+  </view>
+  <view class="yellowPageItem">
+    <view class="title">物业管理委员会：</view>
+    <view class="phoneNumber">131-6625-8710</view>
+  </view>
+  <view class="yellowPageItem">
+    <view class="title">社区卫生站：</view>
+    <view class="phoneNumber">137-9108-2510</view>
+  </view>
+  <view class="yellowPageItem">
+    <view class="title">社区调解站：</view>
+    <view class="phoneNumber">153-9858-7890</view>
+  </view>
+  <view class="yellowPageItem">
+    <view class="title">社区车位咨询：</view>
+    <view class="phoneNumber">151-5008-2710</view>
+  </view>
+  <view class="yellowPageItem">
+    <view class="title">社区志愿者服务：</view>
+    <view class="phoneNumber">133-4508-7780</view>
+  </view>
+  <view class="yellowPageItem">
+    <view class="title">社区扶贫站：</view>
+    <view class="phoneNumber">127-1328-5570</view>
+  </view>
+  <view class="yellowPageItem">
+    <view class="title">社区养老院：</view>
+    <view class="phoneNumber">137-6678-8640</view>
+  </view>
+  
+</view>

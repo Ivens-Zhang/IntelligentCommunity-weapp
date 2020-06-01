@@ -16,8 +16,9 @@
     <text class="welcome">欢迎来到 IC 智慧社区</text>
   </view> -->
   <view bindtap="createFaceInfo" class="createFaceInfo">
-  <ul>
-    <li>·绑定脸部图片</li>
-  </ul>
+  <!-- <ul>
+    <li>·</li>
+  </ul> -->
+  <button class="addFace" size="default" type="primary">绑定脸部图片</button>
   </view>
 </view>

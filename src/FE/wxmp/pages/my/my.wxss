@@ -32,3 +32,8 @@
   left: 200rpx;
   font-size: x-large;
 }
+
+.addFace {
+  position: fixed;
+  bottom: 150rpx;
+}
